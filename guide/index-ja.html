@@ -1,0 +1,83 @@
+<html>
+<meta charset="UTF-8">
+
+<style>
+
+img{
+	display.block;
+	width:320px;
+	border: 1px solid black;
+}
+</style>
+<title>ISRG Root X1 証明書インストーラ</title>
+<h1>ISRG Root X1 証明書インストーラ</h1>
+
+<A href="index.html">English version here.</a>
+
+<hr/>
+<p>注意： アプリを入れなくてもすべての手順を手動で行うことができます。</p>
+<ul>
+<li>試験サイトのURL <a href="https://valid-isrgrootx1.letsencrypt.org/">https://valid-isrgrootx1.letsencrypt.org/</a></li>
+<li>証明書PEMファイルのURL<a href="https://letsencrypt.org/certs/isrgrootx1.pem.txt">https://letsencrypt.org/certs/isrgrootx1.pem.txt</a></li>
+<li>証明書PEMファイルをインストールする前に、ファイル名を isrgrootx1.pem.txt から isrgrootx1.pem に変更する必要があります。</li>
+</ul>
+
+<hr/>
+<p>
+アプリのAPKファイルをダウンロード  <A href="ISRGRootX1Installer--1-1.0-20200917_182601.apk">ISRGRootX1Installer--1-1.0-20200917_182601.apk</a>
+</p>
+
+<hr>
+<p>アプリを開始するとこんな画面が見えます。</p>
+<img src="1.jpg">
+
+<hr/>
+<H2>手順1</H2>
+<p>手順1のボタンを押します。</p>
+<img src="step1.jpg">
+
+<p>もし試験サイトを正しく表示できたら、手順2以降の操作は必要ありません。</p>
+<p>もしエラーが表示されたなら、証明書のダウンロードとインストールを行いましょう。</p>
+<img src="10.jpg" style="width:160px">
+<img src="2.jpg" style="width:160px">
+
+<hr/>
+<H2>手順2</H2>
+<p>手順2のボタンを押します。</p>
+<img src="step2.jpg">
+
+<p>証明書をダウンロードするのに、ストレージ権限をアプリに許可してください。</p>
+<img src="3.jpg">
+
+<p>ダウンロードが完了すると、通知が表示されます。</p>
+<img src="4.jpg">
+
+<p>(省略可能) このアプリを信用しないでください。ファイラーなとでPEMファイルの内容を確認して、オリジナルの配布サイトのものと同一か確認してください。</p>
+<img src="5.jpg">
+
+<hr/>
+<H2>手順3</H2>
+<p>手順3のボタンを押します。</p>
+<img src="step3.jpg">
+
+
+<p>端末のセキュリティ設定が開きます。"認証情報ストレージ / 機器メモリーかSDカードからインストール" を選択してください。</p>
+<img src="6.jpg">
+
+<p>ファイルピッカーが開きます。 !!サイドメニューの「ダウンロード」を選ばないでください!! かわりに「内部ストレージ」を選びます。もし「内部ストレージ」の項目がない場合、右上の「…」ボタンを試してください。</p>
+<img src="7.jpg">
+
+<p>内部ストレージの下にある "Download" フォルダを選び、その中の "isrgrootx1.pem" を選択します。</p>
+<img src="8.jpg">
+
+<p>証明書の名前を入力します。他の証明書と区別できるなら何でもOKです。</p>
+<img src="9.jpg">
+
+<hr>
+<H2>再度テスト</H2>
+<p>戻るボタンを何度か押してこのアプリに戻ります。手順1のボタンを押します。</p>
+<img src="step1.jpg">
+
+<p>証明書が正しくインストールされていれば、試験サイトを閲覧できます。</p>
+<img src="10.jpg" style="width:160px">
+</html>

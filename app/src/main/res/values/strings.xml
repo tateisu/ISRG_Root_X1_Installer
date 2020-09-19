@@ -1,0 +1,14 @@
+<resources>
+    <string name="url_test" translatable="false">https://valid-isrgrootx1.letsencrypt.org/</string>
+    <string name="url_certificate" translatable="false">https://letsencrypt.org/certs/isrgrootx1.pem.txt</string>
+    <string name="file_name" translatable="false">isrgrootx1.pem</string>
+    <string name="app_name" translatable="false">ISRG Root X1 Certificate Installer</string>
+
+    <string name="step1">Step1: Test Your Browser. If the page is visible, you don\'t need to install new certificate.</string>
+    <string name="step2">Step2: Download the certificate. The file will be saved to device\'s download folder. After downloading, you may want to check the content of downloaded file by using your filer app.</string>
+    <string name="step3">Step3: Open Security Settings, then manually install certificate</string>
+    <string name="security_settings">Security Settings</string>
+    <string name="please_grant_permission_in_app_setting">Please grant storage permission on the device\'s app setting.</string>
+    <string name="usage">Usage</string>
+
+</resources>

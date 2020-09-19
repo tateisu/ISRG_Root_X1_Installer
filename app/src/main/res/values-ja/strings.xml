@@ -1,0 +1,9 @@
+<resources>
+    <string name="step1">手順1: ブラウザでテスト。もしテストサイトを閲覧できるなら、手順2以降を行う必要はありません。</string>
+    <string name="step2">手順2: 証明書のダウンロード。ファイルは端末のダウンロードフォルダに保存されます。ダウンロード完了後、あなたはお手持ちのファイラー等を使って証明書の内容が配布サイトと同じかどうか確認するべきです。このアプリを信用しないでください。</string>
+    <string name="step3">手順3: 端末のセキュリティ設定を開いて、手動で証明書をインストールしてください。</string>
+    <string name="security_settings">端末のセキュリティ設定</string>
+    <string name="please_grant_permission_in_app_setting">端末のアプリ設定でこのアプリのストレージ権限を許可してください。</string>
+    <string name="usage">使い方の説明</string>
+
+</resources>
